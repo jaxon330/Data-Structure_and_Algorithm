@@ -37,3 +37,5 @@ const pairProduct = (numbers, targetProduct) => {
     //? n = length of array
     //? Time: O(n)
     //? Space:O(n)
+
+    pairProduct([3, 2, 5, 4, 1], 8); // -> [1, 3]
