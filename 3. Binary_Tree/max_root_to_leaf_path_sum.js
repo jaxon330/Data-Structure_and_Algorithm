@@ -26,6 +26,17 @@ class Node {
   b.left = d;
   b.right = e;
   c.right = f;
+  e.right = g;
+
+  //        5
+  //     /    \
+  //    11    54
+  //  /   \
+  // 20   15
+  //      / \
+  //     1  3
+  
+
   
   //! Recursive solution
   const maxPathSum = (root) => {
@@ -38,3 +49,5 @@ class Node {
   //? n = number of nodes
   //? Time: O(n)
   //? Space: O(n)
+
+  maxPathSum(a); // -> 59
