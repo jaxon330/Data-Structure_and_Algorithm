@@ -58,5 +58,7 @@ const breadthFirstValues = (root) => {
   //? Time: O(n)
   //? Space: O(n)
 
+  breadthFirstValues(a);  //   -> ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+
   /* Note: this solution should really be considered O(n^2) runtime because the JavaScript shift() methods runs in O(n). 
   JavaScript does not have a native queue data structure that is maximally efficient.*/
